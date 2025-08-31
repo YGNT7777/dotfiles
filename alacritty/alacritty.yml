@@ -1,0 +1,22 @@
+# ~/.config/alacritty/alacritty.yml
+
+env:
+  LANG: en_US.UTF-8  # Ensure proper UTF-8 rendering
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"  # Or another Nerd Font
+    style: "Regular"
+  size: 12.0
+
+# Optional: force TERM to something more compatible
+# Only do this if you're having rendering issues
+# shell:
+#   program: /bin/bash
+#   args:
+#     - --login
+#     - -c
+#     - 'TERM=linux exec bash'
+
+# Alternatively, set TERM globally in ~/.bashrc or ~/.zshrc
+# export TERM=linux
